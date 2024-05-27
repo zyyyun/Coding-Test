@@ -123,11 +123,10 @@ git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 
 <br/>
 
 ## 📑 참고하면 좋은 자료
-- [자바스크립트 코딩 테스트 팁](https://github.com/ProgWon/JS-CodingTest)
-- [자바스크립트로 정리하는 '이것이 코딩 테스트다 with 파이썬'](https://github.com/gayoungyeom/js-coding-test)
+- [자바스크립트 코딩 테스트의 소소한 팁](https://github.com/ProgWon/JS-CodingTest)
+- [자바스크립트로 코딩 테스트를 준비하면서 알게된 팁](https://velog.io/@cu1210/JS%EB%A1%9C-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%B2%98%EC%9D%8C-%EC%A4%80%EB%B9%84%ED%95%98%EB%A9%B4%EC%84%9C-%EC%95%8C%EA%B2%8C%EB%90%9C-%ED%95%A8%EC%88%98-%ED%8C%81)
 - [재미삼아 하는 자바스크립트 지식 질문 - KR](https://github.com/lydiahallie/javascript-questions/blob/master/ko-KR/README-ko_KR.md)
 - [프로그래밍 입문자와 프론트엔드 취준생을 위한 컨텐츠 모음](https://github.com/SangYoonLee1231/content-list-for-frontend-dreamers)
-- [알고리즘 문제 풀이 with JavaScript](https://github.com/JeongHwan-dev/algorithm-solving-with-js)
   
 <br/>
 
@@ -170,3 +169,5 @@ git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 
 - [코딩테스트 대비 문제집 with Baekjoon](https://github.com/tony9402/baekjoon)
 - [코딩테스트 기출 문제 풀이 및 업로드 Repository](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
 - [프로그래머스 웹 데브코스 4 자바스크립트 코드 스터디](https://github.com/prgrms-web-devcourse/FEDC4-JS-code-study)
+- [알고리즘 문제 풀이 with JavaScript](https://github.com/JeongHwan-dev/algorithm-solving-with-js)
+- [자바스크립트로 정리하는 '이것이 코딩 테스트다 with 파이썬'](https://github.com/gayoungyeom/js-coding-test)
