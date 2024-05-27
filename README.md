@@ -26,8 +26,8 @@
     <td align="center"><a href="https://github.com/espoiryoung"><b>전진영</b></a></td>
     <td align="center"><a href="https://github.com/gkstjgms"><b>한서흔</b></a></td>
     <td align="center"><a href="https://github.com/haegu97"><b>김선구</b></a></td>
-    <td align="center"><a href="https://github.com/jukrap"><b>박주철</b></a></td>
     <td align="center"><a href="https://github.com/moko0428"><b>이준영</b></a></td>
+    <td align="center"><a href="https://github.com/jukrap"><b>박주철</b></a></td>
     <td align="center"><a href="https://github.com/murramge"><b>강은화</b></a></td>
     <td align="center"><a href="https://github.com/zyyyun"><b>조윤서</b></a></td>
   </tr>
