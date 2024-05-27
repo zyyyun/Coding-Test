@@ -1,4 +1,4 @@
-## 🍙 DevBob-Coding-Study/Coding-Test 🍙
+## 🍙 DevBob-Study/Coding-Test 🍙
 > 코딩 테스트 준비를 위한 스터디의 공용 리포지토리입니다.
 
 - 기간: 2024년 5월 27일 ~ 모두가 취업할 때까지
