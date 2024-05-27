@@ -26,8 +26,8 @@
     <td align="center"><a href="https://github.com/espoiryoung"><b>전진영</b></a></td>
     <td align="center"><a href="https://github.com/gkstjgms"><b>한서흔</b></a></td>
     <td align="center"><a href="https://github.com/haegu97"><b>김선구</b></a></td>
-    <td align="center"><a href="https://github.com/jukrap"><b>박주철</b></a></td>
     <td align="center"><a href="https://github.com/moko0428"><b>이준영</b></a></td>
+    <td align="center"><a href="https://github.com/jukrap"><b>박주철</b></a></td>
     <td align="center"><a href="https://github.com/murramge"><b>강은화</b></a></td>
     <td align="center"><a href="https://github.com/zyyyun"><b>조윤서</b></a></td>
   </tr>
@@ -81,40 +81,40 @@
 - 소요 시간 측정이 불가능하거나 실패한 경우에는 `??h ??m`을 사용합니다.
 #### 💿 기본 Commit
 ```
-해당 주차 / [플랫폼 약어] 문제번호_문제명 / 소요 시간
-git commit -m "해당 주차 / [플랫폼 약어] 문제번호_문제명 / 소요 시간(시간h 분m)"
+해당 주차 / [플랫폼 약어] 문제명 / 소요 시간
+git commit -m "해당 주차 / [플랫폼 약어] 문제명 / 소요 시간(시간h 분m)"
 ```
-1. 예시 1) 1주차 / [BOJ] 14003_가장 긴 증가하는 부분 수열 5 / 1h 30m
-2. 예시 2) 3주차 / [BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 / 1h 30m
-3. 예시 3) 6주차 / [PGS] 12922_수박수박수박수박수박수? / 1h 30m
-4. 예시 4) 9주차 / [PGS] 17681_[1차] 비밀지도 / ??h ??m
+1. 예시 1) 1주차 / [BOJ] 가장 긴 증가하는 부분 수열 5 / 2m
+2. 예시 2) 3주차 / [BOJ] 알고리즘 수업 - 너비 우선 탐색 2 / 2h 30m
+3. 예시 3) 6주차 / [PGS] 수박수박수박수박수박수? / 30m
+4. 예시 4) 9주차 / [PGS] [1차] 비밀지도 / ??h ??m
 #### 📀 수정 Commit
 ```
-해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 / 소요 시간
-git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 / 소요 시간(시간h 분m)"
+해당 주차 / [FIXED][플랫폼 약어] 문제명 / 소요 시간
+git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제명 / 소요 시간(시간h 분m)"
 ```
-1. 예시 1) 1주차 / [FIXED][BOJ] 14003_가장 긴 증가하는 부분 수열 5 / 1h 30m
-2. 예시 2) 3주차 / [FIXED][BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 / 1h 30m
-3. 예시 3) 6주차 / [FIXED][PGS] 12922_수박수박수박수박수박수? / 1h 30m
-4. 예시 4) 9주차 / [FIXED][PGS] 17681_[1차] 비밀지도 / ??h ??m
+1. 예시 1) 1주차 / [FIXED][BOJ] 가장 긴 증가하는 부분 수열 5 / 2m
+2. 예시 2) 3주차 / [FIXED][BOJ] 알고리즘 수업 - 너비 우선 탐색 2 / 2h 30m
+3. 예시 3) 6주차 / [FIXED][PGS] 수박수박수박수박수박수? / 30m
+4. 예시 4) 9주차 / [FIXED][PGS] [1차] 비밀지도 / ??h ??m
 ---
 ### 🖨 Pull requests 규칙
 ```
-해당 주차 [플랫폼 약어] 문제번호_문제명 개인영문이름-행위
+해당 주차 [플랫폼 약어] 문제명 개인영문이름-행위
 ```
-1. 예시 1) 1주차 [BOJ] 14003_가장 긴 증가하는 부분 수열 5 gildong-제출
-2. 예시 2) 3주차 [BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 younghee-제출
-3. 예시 3) 6주차 [PGS] 12922_수박수박수박수박수박수? gilsoon-수정
-4. 예시 4) 9주차 [PGS] 17681_[1차] 비밀지도 cheolsu-오류
+1. 예시 1) 1주차 [BOJ] 가장 긴 증가하는 부분 수열 5 gildong-제출
+2. 예시 2) 3주차 [BOJ] 알고리즘 수업 - 너비 우선 탐색 2 younghee-제출
+3. 예시 3) 6주차 [PGS] 수박수박수박수박수박수? gilsoon-수정
+4. 예시 4) 9주차 [PGS] [1차] 비밀지도 cheolsu-오류
 ---
 ### 📁 리포지토리 구조
 ```
-플랫폼 약어/문제번호_문제명/개인영문이름.js
+해당 주차/플랫폼 약어_문제명/개인영문이름.js
 ```
-1. 예시 1) BOJ/14003_가장 긴 증가하는 부분 수열 5/gildong.js
-2. 예시 2) BOJ/24445_알고리즘 수업 - 너비 우선 탐색 2/younghee.js
-3. 예시 3) PGS/12922_수박수박수박수박수박수?/gilsoon.js
-4. 예시 4) PGS/17681_[1차] 비밀지도/cheolsu.js
+1. 예시 1) 1주차/BOJ_가장 긴 증가하는 부분 수열 5/gildong.js
+2. 예시 2) 3주차/BOJ_알고리즘 수업 - 너비 우선 탐색 2/younghee.js
+3. 예시 3) 6주차/PGS_수박수박수박수박수박수?/gilsoon.js
+4. 예시 4) 9주차/PGS_[1차] 비밀지도/cheolsu.js
 - 문제 번호와 문제 명칭을 잘못 적어서 다른 폴더에 파일이 들어가지 않도록 주의합시다.
 
 <br/>
