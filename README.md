@@ -6,8 +6,10 @@
     -  문제 해결: 월요일, 화요일, 수요일
     -  문제 발표: 목요일
     -  오후 3시 ~ 오후 6시 (변경될 수도 있음)
-- 참고 사이트: [프로그래머스](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=javascript) / [백준](https://www.acmicpc.net/step)
+- 사용 사이트: [프로그래머스](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&languages=javascript) / [백준](https://www.acmicpc.net/step)
 - 언어: 가능한 한 자바스크립트
+
+<br/>
 
 ## 🤗 스터디 멤버
 <table>
@@ -65,40 +67,106 @@
 2. 문제 풀이에 대한 접근 방식을 설명합니다. (선택형)
 3. 너무 길지 않게, 문제 해결에 사용된 코드에 대한 설명을 진행합니다.
 4. 시간 복잡도 및 공간 복잡도 계산을 진행합니다. 단, 어려울 경우 실행 시간 캡쳐를 보여줍니다.
-5. 사용한 라이브러리가 있을 경우 어떤 라이브러리이고, 어떤 원리인지 설명합니다.
+5. 사용한 라이브러리가 있을 경우 어떤 라이브러리이고, 어떤 원리인지 설명합니다. (선택형)
 6. 사족(덧붙이고 싶은 말, 문제 풀이에서 힘들었던 부분, 실패한 코드 등등)이 있을 경우 추가적으로 설명합니다.
 7. 발표가 끝난 뒤 코드 및 알고리즘에 대한 Q&A를 진행합니다.
 
-## 📍 Commit 및 Pull requests 규칙
-- 다만, PR은 크게 사용하지 않을 것 같습니다.
-### 📘 Commit 규칙
-```
-[해당 주차] 문제번호_문제명 개인영문이름
-```
-1. 예시 1) [1주차] 14003_가장 긴 증가하는 부분 수열 5 gildong
-4. 예시 2) [3주차] 24445_알고리즘 수업 - 너비 우선 탐색 2 younghee
-2. 예시 3) [6주차] 12922_수박수박수박수박수박수? gilsoon
-3. 예시 4) [9주차] 17681_[1차] 비밀지도 cheolsu
+<br/>
 
-### 📕 Pull requests 규칙
-```
-[해당 주차] 문제번호_문제명 개인영문이름-행위
-```
-1. 예시 1) [1주차] 14003_가장 긴 증가하는 부분 수열 5 gildong-제출
-4. 예시 2) [3주차] 24445_알고리즘 수업 - 너비 우선 탐색 2 younghee-제출
-2. 예시 3) [6주차] 12922_수박수박수박수박수박수? gilsoon-수정
-3. 예시 4) [9주차] 17681_[1차] 비밀지도 cheolsu-오류
-
-
-
-## 📁 리포지토리 구조
+## 📍 각종 규칙 및 구조
 - 폴더명에 포함된 '문제번호'는 해당 문제 주소창의 URL 끝에 있는 고유한 숫자를 의미합니다.
 - 폴더명에 포함된 '문제명'은 프로그래머스 혹은 백준의 공식 문제 명칭을 기준으로 합니다.
+- 플랫폼 약어
+   - `BOJ = 백준`
+   - `PGS = 프로그래머스`
+### 💽 Commit 규칙
+- 기본적으로 쓰이는 '기본 Commit'과 기존 코드를 개선했을 경우 사용하는 '수정 Commit'이 나뉘어져 있습니다.
+- 소요 시간 측정이 불가능하거나 실패한 경우에는 `??h ??m`을 사용합니다.
+#### 💿 기본 Commit
+```
+해당 주차 / [플랫폼 약어] 문제번호_문제명 / 소요 시간
+git commit -m "해당 주차 / [플랫폼 약어] 문제번호_문제명 / 소요 시간(시간h 분m)"
+```
+1. 예시 1) 1주차 / [BOJ] 14003_가장 긴 증가하는 부분 수열 5 / 1h 30m
+2. 예시 2) 3주차 / [BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 / 1h 30m
+3. 예시 3) 6주차 / [PGS] 12922_수박수박수박수박수박수? / 1h 30m
+4. 예시 4) 9주차 / [PGS] 17681_[1차] 비밀지도 / ??h ??m
+#### 📀 수정 Commit
+```
+해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 / 소요 시간
+git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제번호_문제명 / 소요 시간(시간h 분m)"
+```
+1. 예시 1) 1주차 / [FIXED][BOJ] 14003_가장 긴 증가하는 부분 수열 5 / 1h 30m
+2. 예시 2) 3주차 / [FIXED][BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 / 1h 30m
+3. 예시 3) 6주차 / [FIXED][PGS] 12922_수박수박수박수박수박수? / 1h 30m
+4. 예시 4) 9주차 / [FIXED][PGS] 17681_[1차] 비밀지도 / ??h ??m
+---
+### 🖨 Pull requests 규칙
+```
+해당 주차 [플랫폼 약어] 문제번호_문제명 개인영문이름-행위
+```
+1. 예시 1) 1주차 [BOJ] 14003_가장 긴 증가하는 부분 수열 5 gildong-제출
+2. 예시 2) 3주차 [BOJ] 24445_알고리즘 수업 - 너비 우선 탐색 2 younghee-제출
+3. 예시 3) 6주차 [PGS] 12922_수박수박수박수박수박수? gilsoon-수정
+4. 예시 4) 9주차 [PGS] 17681_[1차] 비밀지도 cheolsu-오류
+---
+### 📁 리포지토리 구조
+```
+플랫폼 약어/문제번호_문제명/개인영문이름.js
+```
+1. 예시 1) BOJ/14003_가장 긴 증가하는 부분 수열 5/gildong.js
+2. 예시 2) BOJ/24445_알고리즘 수업 - 너비 우선 탐색 2/younghee.js
+3. 예시 3) PGS/12922_수박수박수박수박수박수?/gilsoon.js
+4. 예시 4) PGS/17681_[1차] 비밀지도/cheolsu.js
 - 문제 번호와 문제 명칭을 잘못 적어서 다른 폴더에 파일이 들어가지 않도록 주의합시다.
-```
-플랫폼/문제번호_문제명/개인영문이름.js
-```
-1. 예시 1) Baekjoon/14003_가장 긴 증가하는 부분 수열 5/gildong.js
-4. 예시 2) Baekjoon/24445_알고리즘 수업 - 너비 우선 탐색 2/younghee.js
-2. 예시 3) Programmers/12922_수박수박수박수박수박수?/gilsoon.js
-3. 예시 4) Programmers/17681_[1차] 비밀지도/cheolsu.js
+
+<br/>
+
+## 📑 참고하면 좋은 자료
+- [자바스크립트 코딩 테스트 팁](https://github.com/ProgWon/JS-CodingTest)
+- [자바스크립트로 정리하는 '이것이 코딩 테스트다 with 파이썬'](https://github.com/gayoungyeom/js-coding-test)
+- [재미삼아 하는 자바스크립트 지식 질문 - KR](https://github.com/lydiahallie/javascript-questions/blob/master/ko-KR/README-ko_KR.md)
+- [프로그래밍 입문자와 프론트엔드 취준생을 위한 컨텐츠 모음](https://github.com/SangYoonLee1231/content-list-for-frontend-dreamers)
+- [알고리즘 문제 풀이 with JavaScript](https://github.com/JeongHwan-dev/algorithm-solving-with-js)
+  
+<br/>
+
+## 💻 문제 기록
+<details markdown="1">
+<summary><strong> 💾 [1주차] 프로그래머스 - 코딩테스트 고득점 Kit 1단계 </summary></strong>
+<br>
+
+| 알고리즘 | 문제 | 레벨 | URL |
+| :--: | :--: | :--: | :--: |
+| 해시 | 폰켓몬 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/1845 |
+| 해시 | 완주하지 못한 선수 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/42576 |
+| 스택/큐 | 같은 숫자는 싫어 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/12906 |
+| 정렬 | K번째수 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/42748 |
+| 완전탐색 | 최소직사각형 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/86491 |
+| 완전탐색 | 모의고사 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/42840 |
+| 탐욕법(Greedy) | 체육복 | 1 | https://school.programmers.co.kr/learn/courses/30/lessons/42862 |
+
+</details>
+
+----------
+
+<details markdown="1">
+<summary><strong> 💾 [2주차] 프로그래머스 - ??? </summary></strong>
+<br>
+
+| 알고리즘 | 문제 | 레벨 | URL |
+| :--: | :--: | :--: | :--: |
+| ??? | ??? | 2 | ??? |
+
+</details>
+
+----------
+
+<br/>
+
+## 😆 Special Thanks
+- [알고리즘 및 코딩 테스트 문제 풀이](https://github.com/Seongho0503/Algo_Study)
+- [알고리즘 및 코딩 테스트 문제 풀이 챌린지 100](https://github.com/ellynhan/challenge100-codingtest-study)
+- [코딩테스트 대비 문제집 with Baekjoon](https://github.com/tony9402/baekjoon)
+- [코딩테스트 기출 문제 풀이 및 업로드 Repository](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
+- [프로그래머스 웹 데브코스 4 자바스크립트 코드 스터디](https://github.com/prgrms-web-devcourse/FEDC4-JS-code-study)
