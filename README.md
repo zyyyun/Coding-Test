@@ -19,7 +19,6 @@
     <td align="center"><a href="https://github.com/haegu97"><img src="https://avatars.githubusercontent.com/u/108677235" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/JieunIee"><img src="https://avatars.githubusercontent.com/u/86454901" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jukrap"><img src="https://avatars.githubusercontent.com/u/11244617" width="50px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/moko0428"><img src="https://avatars.githubusercontent.com/u/39412219" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/murramge"><img src="https://avatars.githubusercontent.com/u/60298173" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/zyyyun"><img src="https://avatars.githubusercontent.com/u/115001774" width="50px;" alt=""></a></td>
   </tr>
@@ -27,7 +26,6 @@
     <td align="center"><a href="https://github.com/espoiryoung"><b>전진영</b></a></td>
     <td align="center"><a href="https://github.com/gkstjgms"><b>한서흔</b></a></td>
     <td align="center"><a href="https://github.com/haegu97"><b>김선구</b></a></td>
-    <td align="center"><a href="https://github.com/JieunIee"><b>이지은</b></a></td>
     <td align="center"><a href="https://github.com/jukrap"><b>박주철</b></a></td>
     <td align="center"><a href="https://github.com/moko0428"><b>이준영</b></a></td>
     <td align="center"><a href="https://github.com/murramge"><b>강은화</b></a></td>
@@ -36,7 +34,6 @@
   <tr> 
     <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"><br/><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"></td>
